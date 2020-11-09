@@ -78,6 +78,9 @@
     <Compile Include="Taguj.Designer.cs">
       <DependentUpon>Taguj.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Befizeteslekerdezese.resx">
+      <DependentUpon>Befizeteslekerdezese.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Befizetesuj.resx">
       <DependentUpon>Befizetesuj.cs</DependentUpon>
     </EmbeddedResource>
@@ -93,6 +96,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Tagmodositas.resx">
+      <DependentUpon>Tagmodositas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Taguj.resx">
       <DependentUpon>Taguj.cs</DependentUpon>
     </EmbeddedResource>

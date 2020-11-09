@@ -16,10 +16,11 @@ namespace Tagdij1
         {
             InitializeComponent();
         }
-
-        private void label2_Click(object sender, EventArgs e)
+        private void Befizetesuj_FormClosing(object sender, FormClosingEventArgs e)
         {
-
+            this.Hide();
+            e.Cancel = true;
+            Program.nyito.Show();
         }
     }
 }

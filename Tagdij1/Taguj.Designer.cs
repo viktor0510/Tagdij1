@@ -92,7 +92,6 @@
             this.Irszam_uj.Size = new System.Drawing.Size(103, 20);
             this.Irszam_uj.TabIndex = 4;
             this.Irszam_uj.Text = "Irányítószám:";
-            this.Irszam_uj.Click += new System.EventHandler(this.label2_Click);
             // 
             // Orszag_uj
             // 
@@ -182,6 +181,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Taguj";
             this.Text = "Taguj";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Taguj_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1_Szulev_uj)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

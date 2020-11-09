@@ -16,5 +16,12 @@ namespace Tagdij1
         {
             InitializeComponent();
         }
+
+        private void Tagmodositas_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            this.Hide();
+            e.Cancel = true;
+            Program.nyito.Show();
+        }
     }
 }
